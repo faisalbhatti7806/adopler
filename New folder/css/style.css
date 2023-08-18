@@ -1,0 +1,165 @@
+             /* navbar css start */
+
+             body {
+                 margin: 0;
+                 padding: 0;
+                 font-family: Arial, sans-serif;
+                 background-color: #f0f0f0;
+             }
+
+             .navbar {
+                 display: flex;
+                 background-color: #615f5f;
+                 color: #fff;
+                 padding: 10px 20px;
+                 position: relative;
+                 /* width: 100%; */
+
+             }
+
+             .logo a {
+                 color: #fff;
+                 text-decoration: none;
+                 font-size: 1.9rem;
+                 margin-right: 350px;
+             }
+
+             .nav-links {
+                 /* align-items: center; */
+                 /* justify-content: space-between; */
+                 list-style: none;
+                 display: flex;
+                 font-size: 1.5rem;
+                 margin: 0;
+                 padding: 0;
+             }
+
+             .nav-links li {
+                 margin-right: 20px;
+
+             }
+
+             .nav-links a {
+                 color: #fff;
+                 text-decoration: none;
+             }
+
+             .nav-links a:hover {
+                 text-decoration: underline;
+             }
+
+             .inpt input {
+                 margin-left: 30px;
+                 width: 250px;
+                 height: 30px;
+                 border: none;
+                 border-radius: 5px;
+             }
+
+             .buttn span a{
+                 text-decoration: none;
+                 outline: none;
+                 margin-left: 30px;
+                 color: #dcdadae7;
+                 font-style: oblique;
+             }
+
+             .buttn span a:hover {
+                 color: rgb(253, 253, 253);
+                 text-decoration: underline;
+             }
+
+             .buttn button {
+                 display: none;
+                 border: none;
+                 background: transparent;
+                 cursor: pointer;
+                 font-size: 30px;
+                 border-radius: 20px;
+                 width: 130px;
+                 height: 35px;
+                 margin-left: 30px;
+                 color: #dcdadae7;
+             }
+
+             .buttn button:hover {
+                 color: rgb(253, 253, 253);
+                 text-decoration: underline;
+             }
+
+           /* signup login css start */
+
+           .login-box {
+            width: 400px;
+            background-color: rgb(159, 164, 164);
+            height: 505px;
+            margin-left: 450px;
+            margin-top: 50px;
+            border-radius: 12px;
+            color: aliceblue;
+          }
+          
+          .login-box1 {
+            width: 400px;
+            background-color: rgb(159, 164, 164);
+            height: 350px;
+            margin-left: 450px;
+            margin-top: 90px;
+            border-radius: 12px;
+            color: aliceblue;
+          }
+          
+          h2 {
+            text-align: center;
+            font-size: 40px;
+padding-top: 10px;
+            color: aliceblue;
+            font-style: oblique;
+          }
+          
+          .user-box input,
+          .user-box1 input {
+            width: 230px;
+            height: 25px;
+            background-color: azure;
+            border: none;
+            font-size: 18px;
+            border-radius: 5px;
+          }
+          
+          #logn {
+            font-size: 18px;
+          }
+          
+          #main-img {
+            width: 400px;
+            height: 350px;
+            border-radius: 20px;
+          }
+          
+          #arrival {
+            height: 320px;
+            width: 280px;
+            border-radius: 20px;
+          }
+          
+          .login-box .user-box,
+          .login-box1 .user-box1 {
+            font-size: 22px;
+            padding-top: 10px;
+            padding-left: 80px;
+            color: aliceblue;
+          }
+          
+          #btn {
+            margin-top: 40px;
+            font-size: 0px;
+            cursor: pointer;
+            width: 180px;
+            height: 40px;
+            color: white;
+            background-color: rgb(103, 103, 171);
+            border: none;
+            border-radius: 30px;
+            margin-left: 110px;
+          }
